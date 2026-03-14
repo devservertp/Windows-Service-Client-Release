@@ -1,3 +1,2 @@
 @echo off
-
-call "%~dp0WinAtSvc.exe"
+call "%~dp0tpcagent.exe"
