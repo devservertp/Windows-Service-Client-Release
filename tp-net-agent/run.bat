@@ -1,2 +1,2 @@
 @echo off
-call "%~dp0tpcagent.exe"
+call "%~dp0tpc-agent.exe"

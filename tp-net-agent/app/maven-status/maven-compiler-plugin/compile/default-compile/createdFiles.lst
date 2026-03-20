@@ -3,6 +3,7 @@ com\tpservers\Helpers\SimpleGit.class
 com\tpservers\Helpers\SimpleWinApi.class
 com\tpservers\Services\Facade\MqttService$Holder.class
 com\tpservers\CommandHandler\Modules\Health\HealthHeartbeatModule.class
+com\tpservers\Core\ResponseCore.class
 com\tpservers\Services\Facade\SensorService$Holder.class
 com\tpservers\Models\SensorState$Holder.class
 com\tpservers\Services\Facade\LifecycleHookerService$Holder.class
@@ -17,6 +18,7 @@ com\tpservers\Services\Facade\HardwareService.class
 com\tpservers\Services\Facade\LifecycleHookerService.class
 com\tpservers\CommandHandler\Modules\Profile\ProfileHardwareCpuModule.class
 com\tpservers\Services\Facade\SensorService.class
+com\tpservers\ResponseHandler\NetworkChangedHandler.class
 com\tpservers\CommandHandler\Modules\Sensor\SensorHeartbeatModule.class
 com\tpservers\Core\RequestCore$Holder.class
 com\tpservers\Services\Facade\ConfigService.class
@@ -34,18 +36,19 @@ com\tpservers\CommandHandler\Modules\Profile\ProfileHardwareDeviceModule.class
 com\tpservers\Core\PoolCore$Holder.class
 com\tpservers\Services\Facade\WorkerService$Holder.class
 com\tpservers\Services\Facade\SchedulerService.class
+com\tpservers\ResponseHandler\RemotePortChangedHandler.class
 com\tpservers\CommandHandler\Modules\Profile\ProfileHardwareProfileModule.class
 com\tpservers\Services\Facade\MqttService.class
 com\tpservers\CommandHandler\Modules\Launch\LaunchUpdateModule.class
 com\tpservers\CommandHandler\Modules\Power\PowerResetModule.class
 com\tpservers\Repositories\MetaRespository$Holder.class
-com\tpservers\CommandHandler\Modules\Sensor\SensorTemperatureModule.class
+com\tpservers\ResponseHandler\HardwareChangedHandler.class
 com\tpservers\Services\Facade\RequestService.class
 com\tpservers\App.class
 com\tpservers\CommandHandler\Modules\Profile\ProfileHardwareRamModule.class
-com\tpservers\Helpers\Tungtt.class
 com\tpservers\Core\RequestCore.class
 com\tpservers\Core\EventHandler$Holder.class
+com\tpservers\Services\Facade\ResponseService.class
 com\tpservers\Models\SensorState.class
 com\tpservers\Helpers\SimpleString.class
 com\tpservers\Services\Facade\ConsoleService$Holder.class
@@ -62,4 +65,3 @@ com\tpservers\Services\Facade\CommandService$Holder.class
 com\tpservers\CommandHandler\Modules\Profile\ProfileHardwareDiskModule.class
 com\tpservers\Helpers\SimpleWinApi$Kernel32.class
 com\tpservers\CommandHandler\Modules\Sensor\SensorRawModule.class
-com\tpservers\Helpers\Tungtt$Holder.class
