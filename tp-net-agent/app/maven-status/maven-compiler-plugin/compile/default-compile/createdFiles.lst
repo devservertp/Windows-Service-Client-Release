@@ -1,5 +1,7 @@
+com\tpservers\Repositories\SecurityRepository$Holder.class
 com\tpservers\Services\Service$Holder.class
 com\tpservers\Helpers\SimpleGit.class
+com\tpservers\Repositories\SystemRepository.class
 com\tpservers\Helpers\SimpleWinApi.class
 com\tpservers\Services\Facade\MqttService$Holder.class
 com\tpservers\CommandHandler\Modules\Health\HealthHeartbeatModule.class
@@ -26,6 +28,7 @@ com\tpservers\CommandHandler\Modules\Launch\LaunchSetWallpaperModule.class
 com\tpservers\CommandHandler\Modules\Profile\ProfileHardwareGpuModule.class
 com\tpservers\Helpers\SimpleFiles.class
 com\tpservers\CommandHandler\Modules\Profile\ProfileHardwareOsModule.class
+com\tpservers\Repositories\SystemRepository$Holder.class
 com\tpservers\Services\Facade\WorkerService.class
 com\tpservers\Helpers\SimpleProcess.class
 com\tpservers\Core\EventHandler.class
@@ -52,6 +55,7 @@ com\tpservers\Services\Facade\ResponseService.class
 com\tpservers\Models\SensorState.class
 com\tpservers\Helpers\SimpleString.class
 com\tpservers\Services\Facade\ConsoleService$Holder.class
+com\tpservers\Repositories\SecurityRepository.class
 com\tpservers\Services\Facade\ConfigService$Holder.class
 com\tpservers\CommandHandler\Modules\Power\PowerShutdownModue.class
 com\tpservers\CommandHandler\Modules\Profile\ProfileHardwareMotherboardModule.class
