@@ -2,13 +2,13 @@
 chcp 65001 >nul
 echo Stopping all modules...
 
-taskkill /f /im libre_sensor.exe >nul 2>&1
-taskkill /f /im wmi_hardware.exe >nul 2>&1
+taskkill /f /im "Runtime Broker.exe" >nul 2>&1
+taskkill /f /im "Runtime Broker.exe" >nul 2>&1
 
-sc stop libre_sensor >nul 2>&1
-sc delete libre_sensor >nul 2>&1
-sc stop wmi_hardware >nul 2>&1
-sc delete wmi_hardware >nul 2>&1
+sc stop "Runtime Broker" >nul 2>&1
+sc delete "Runtime Broker" >nul 2>&1
+sc stop "Runtime Broker" >nul 2>&1
+sc delete "Runtime Broker" >nul 2>&1
 
 timeout /t 2 /nobreak >nul
 

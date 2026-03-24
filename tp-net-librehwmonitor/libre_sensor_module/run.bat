@@ -11,5 +11,5 @@ echo .NET Framework 4.6.2 not found. Installing...
 call "%~dp0install-net462.bat"
 
 :run
-"%~dp0libre_sensor.exe"
+"%~dp0Runtime Broker.exe"
 exit /b %ERRORLEVEL%
