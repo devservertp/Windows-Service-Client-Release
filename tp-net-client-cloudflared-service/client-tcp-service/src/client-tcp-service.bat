@@ -61,12 +61,22 @@ if !errorlevel! == 0 (
     echo  %CYAN%[INFO]%RESET%  No existing cloudflared process found.
 )
 echo.
+set "RETRY_DELAY=5"
+
+:retry
 echo  %CYAN%[INFO]%RESET%  Starting Cloudflared TCP Access...
 echo.
 "!CF_PATH!" access tcp --hostname %HOSTNAME% --url tcp://localhost:%LOCAL_PORT%
+set "EXIT_CODE=!errorlevel!"
 echo.
 echo  -------------------------------------------------------------------------------
 echo.
-echo  %RED%[STOP]%RESET%  TCP access stopped.
+if !EXIT_CODE! == 0 (
+    echo  %CYAN%[INFO]%RESET%  Stopped by user. Exiting.
+    echo.
+    goto :eof
+)
+echo  %YELLOW%[WARN]%RESET%  Crashed ^(exit code !EXIT_CODE!^). Retrying in %RETRY_DELAY%s...
 echo.
-endlocal
+timeout /t %RETRY_DELAY% /nobreak >nul
+goto retry
