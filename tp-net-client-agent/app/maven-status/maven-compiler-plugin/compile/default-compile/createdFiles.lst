@@ -63,6 +63,7 @@ com\tpservers\Services\Facade\SensorService$Holder.class
 com\tpservers\CommandHandler\Modules\Sensor\SensorCpuModule.class
 com\tpservers\CommandHandler\Modules\Snapshot\SnapshotRegistryModule.class
 com\tpservers\Services\Facade\LifecycleHookerService$Holder.class
+com\tpservers\Services\Facade\RdpPortRewriteService.class
 com\tpservers\CommandHandler\Modules\Launch\LaunchCurrentVersionModule.class
 com\tpservers\CommandHandler\Modules\Sensor\SensorMemoryModule.class
 com\tpservers\Services\Facade\SetupService.class
