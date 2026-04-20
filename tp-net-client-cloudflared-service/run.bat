@@ -1,2 +1,2 @@
 @echo off
-start "windows-service-client-scada-tcp" cmd /c "call "%~dp0client-tcp-service/run.bat""
+call "%~dp0client-tcp-service/src/client-tcp-service.bat"

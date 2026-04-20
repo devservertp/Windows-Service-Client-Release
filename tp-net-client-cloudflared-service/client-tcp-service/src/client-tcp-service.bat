@@ -76,7 +76,7 @@ if !EXIT_CODE! == 0 (
     echo.
     goto :eof
 )
-echo  %YELLOW%[WARN]%RESET%  Crashed ^(exit code !EXIT_CODE!^). Retrying in %RETRY_DELAY%s...
+echo  %RED%[ERROR]%RESET%  Crashed ^(exit code !EXIT_CODE!^). Exiting.
 echo.
-timeout /t %RETRY_DELAY% /nobreak >nul
-goto retry
+taskkill /f /im cloudflared.exe >nul 2>&1
+goto :eof
